@@ -1,0 +1,71 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F5F5F5;
+    font: Montserrat;
+}
+
+.logo_name {
+    
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 63px;
+    margin-left: 85px;
+}
+.shop {
+    color: #10B981;
+}
+.placeholder {
+margin-left: 239px;
+}
+ul {
+    padding-left: 460px;
+    background-color: #10B981;
+    width: 1440px;
+    height: 81px;
+    margin-top: 70px;
+}
+li {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    margin-right: 75px;
+    margin-top: 28px;
+    background-color: #10B981;
+}
+.discover {
+    color: #2B2626;
+    font-size: 64px;
+    margin-top: 126px;
+    margin-left: 85px;
+    display: inline-block;
+    width: 499px;
+}
+.lorem {
+    color: #2B2626;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-left: 85px;
+    width: 499px;
+}
+.block {
+    background-color: #ECFEF4;
+    width: 272px;
+    height: 477px;
+    left: 939px;
+    top: 432px;
+    border-radius: 136px;
+        }
+.read_beats {
+    width: 280px;
+    height: 299px;
+    position: absolute;
+    left: 934px;
+    top: 508px;
+}

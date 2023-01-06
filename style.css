@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: none;
     background-color: #F5F5F5;
-    font: Montserrat;
+    font-family: Montserrat;
 }
 
 .logo_name {
@@ -20,7 +20,33 @@
     color: #10B981;
 }
 .placeholder {
-margin-left: 239px;
+    font-size: 16px;
+    margin-left: 220px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 322px;
+    height: 63px;
+    padding-left: 32px;
+}
+.basket {
+    font-size: 16px;
+    margin-left: 38px;
+    background-color: #FFFFFF;
+    border: 1px solid #10B981;
+    border-radius: 30px;
+    width: 299px;
+    height: 60px;
+    padding-left: 75px;
+}
+.login {
+    font-size: 16px;
+    margin-left: 23px;
+    background-color: #10B981;
+    border: 1px solid #10B981;
+    border-radius: 30px;
+    width: 299px;
+    height: 60px;
+    padding-left: 75px;
 }
 ul {
     padding-left: 460px;
@@ -52,7 +78,53 @@ li {
     font-size: 21px;
     margin-top: 30px;
     margin-left: 85px;
-    width: 499px;
+    width: 440px;
+}
+.buy {
+    color:#FFFFFF;
+    font-size: 21px;
+    margin-left: 85px;
+    margin-top: 74px;
+    background-color: #10B981;
+    border-radius: 10px;
+    width: 263px;
+    height: 70px;
+    padding-left: 32px;
+}
+.reviews_1 {
+    box-sizing: border-box;
+    border-radius: 2px solid #FFFFFF;
+    margin-left: 85px;
+    margin-top: 112px;
+    margin-right: -25px;
+    background: none;
+}
+.reviews_2 {
+    box-sizing: border-box;
+    border-radius: 2px solid #FFFFFF;
+    margin-top: 112px;
+    margin-right: -25px;
+    background: none;
+}
+.reviews_3 {
+    box-sizing: border-box;
+    border-radius: 2px solid #FFFFFF;
+    margin-top: 112px;
+    margin-right: -25px;
+    background: none;
+}
+.reviews_4 {
+    box-sizing: border-box;
+    border-radius: 2px solid #FFFFFF;
+    margin-top: 112px;
+    margin-right: -25px;
+    background: none;
+}
+.well_reviews{
+    font-size: 26px;
+    margin-left: 35px;
+    display: inline-block;
+    width: 100px;
 }
 .block {
     background-color: #ECFEF4;
@@ -61,6 +133,7 @@ li {
     left: 939px;
     top: 432px;
     border-radius: 136px;
+    position: absolute;
         }
 .read_beats {
     width: 280px;

@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: none;
     background-color: #F5F5F5;
-    font-family: Montserrat;
+    font-family: "Montserrat";
 }
 
 .logo_name {
@@ -51,7 +51,7 @@
 ul {
     padding-left: 460px;
     background-color: #10B981;
-    width: 1440px;
+    width: 100%;
     height: 81px;
     margin-top: 70px;
 }
@@ -60,10 +60,9 @@ li {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-    font-weight: 600px;
     margin-right: 75px;
     margin-top: 28px;
-    background-color: #10B981;
+    background-color: transparent;
 }
 .discover {
     color: #2B2626;

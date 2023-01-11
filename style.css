@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
-    background-color: #F5F5F5;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
-
+body {
+    background-color: #F5F5F5;
+}
 .logo_name {
-    
     font-weight: 400;
     font-style: italic;
     font-size: 40px;
@@ -62,7 +64,9 @@ li {
     color: #FFFFFF;
     margin-right: 75px;
     margin-top: 28px;
-    background-color: transparent;
+}
+a {
+    cursor: pointer;
 }
 .discover {
     color: #2B2626;
@@ -70,14 +74,14 @@ li {
     margin-top: 126px;
     margin-left: 85px;
     display: inline-block;
-    width: 499px;
+    width: 600px;
 }
 .lorem {
     color: #2B2626;
     font-size: 21px;
     margin-top: 30px;
     margin-left: 85px;
-    width: 440px;
+    width: 500px;
 }
 .buy {
     color:#FFFFFF;
@@ -123,20 +127,11 @@ li {
     font-size: 26px;
     margin-left: 35px;
     display: inline-block;
-    width: 100px;
+    width: 150px;
 }
-.block {
-    background-color: #ECFEF4;
-    width: 272px;
-    height: 477px;
-    left: 939px;
-    top: 432px;
-    border-radius: 136px;
-    position: absolute;
-        }
 .read_beats {
-    width: 280px;
-    height: 299px;
+    width: 430px;
+    height: 606px;
     position: absolute;
     left: 934px;
     top: 508px;

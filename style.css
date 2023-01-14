@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+    --textprimrycolor: #2b2626
+}
 * {    
     margin: 0;
     padding: 0;
@@ -93,6 +96,7 @@ a {
     width: 263px;
     height: 70px;
     padding-left: 32px;
+    cursor: pointer;
 }
 .reviews_1 {
     box-sizing: border-box;
@@ -134,5 +138,32 @@ a {
     height: 606px;
     position: absolute;
     left: 934px;
-    top: 508px;
+    top: 375px;
+}
+.play {
+display: inline-block;
+width: 115px;
+
+}
+.play_img {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    border-radius: 100%;
+    top: 859px;
+    left: 880px;
+
+}
+.play_text {
+    position: absolute;
+    font-size: 21px;
+    border: none;
+    left: 860px;
+    top: 950px;
+    color: var(--textprimrycolor);
+    cursor: pointer;
+    
+}
+.products {
+    background-color: #845EC2;
 }

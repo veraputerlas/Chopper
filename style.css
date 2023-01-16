@@ -210,7 +210,7 @@ width: 115px;
 }
 .airpod_3 { 
     position: absolute;
-    height: 317px;   
+    height: 331px;   
     margin-top: 52px;
     margin-left: 527px;
 }
@@ -228,14 +228,25 @@ width: 115px;
 }
 .more {
     display: inline-block;
+    background-color: transparent;
     color: #F5F5F5;
     font-size: 21px;
     margin-left: 49px;
+    cursor: pointer;
 }
-.price {
-    display: inline-block;
-    color: #F5F5F5;
+.price{
+
     font-size: 31px;
-    margin-left:300px;
-    margin-top: 69px;
+    font-weight: 400;
+    line-height: 38px;
+    color:#FFFFFF;
+    margin-left: 286px;
+    margin-top: 67px;
+}
+.price__text {
+display: inline-block;
+}
+.price__number{
+    display: inline-block;
+    font-weight: 600;
 }

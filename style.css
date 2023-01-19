@@ -1,252 +1,320 @@
 :root {
-    --textprimrycolor: #2b2626
+  --textprimrycolor: #2b2626;
 }
-* {    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    font-family: "Montserrat", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Montserrat", sans-serif;
 }
 body {
-    background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
-.logo_name {
-    font-weight: 400;
-    font-style: italic;
-    font-size: 40px;
-    display: inline-block;
-    margin-top: 63px;
-    margin-left: 85px;
-}
-.shop {
-    color: #10B981;
-}
-.placeholder {
-    font-size: 16px;
-    margin-left: 220px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    width: 322px;
-    height: 63px;
-    padding-left: 32px;
-}
-.basket {
-    font-size: 16px;
-    margin-left: 38px;
-    background-color: #FFFFFF;
-    border: 1px solid #10B981;
-    border-radius: 30px;
-    width: 299px;
-    height: 60px;
-    padding-left: 75px;
-}
-.login {
-    font-size: 16px;
-    margin-left: 23px;
-    background-color: #10B981;
-    border: 1px solid #10B981;
-    border-radius: 30px;
-    width: 299px;
-    height: 60px;
-    padding-left: 75px;
-}
-ul {
-    padding-left: 460px;
-    background-color: #10B981;
-    width: 100%;
-    height: 81px;
-    margin-top: 70px;
-}
-li {
-    display: inline-block;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-right: 75px;
-    margin-top: 28px;
-}
-a {
-    cursor: pointer;
-}
-.discover {
-    color: #2B2626;
-    font-size: 64px;
-    margin-top: 126px;
-    margin-left: 85px;
-    display: inline-block;
-    width: 600px;
-}
-.lorem {
-    color: #2B2626;
-    font-size: 21px;
-    margin-top: 30px;
-    margin-left: 85px;
-    width: 500px;
-}
-.buy {
-    color:#FFFFFF;
-    font-size: 21px;
-    margin-left: 85px;
-    margin-top: 74px;
-    background-color: #10B981;
-    border-radius: 10px;
-    width: 263px;
-    height: 70px;
-    padding-left: 32px;
-    cursor: pointer;
-}
-.reviews_1 {
-    box-sizing: border-box;
-    border-radius: 2px solid #FFFFFF;
-    margin-left: 85px;
-    margin-top: 112px;
-    margin-right: -25px;
-    background: none;
-}
-.reviews_2 {
-    box-sizing: border-box;
-    border-radius: 2px solid #FFFFFF;
-    margin-top: 112px;
-    margin-right: -25px;
-    background: none;
-}
-.reviews_3 {
-    box-sizing: border-box;
-    border-radius: 2px solid #FFFFFF;
-    margin-top: 112px;
-    margin-right: -25px;
-    background: none;
-}
-.reviews_4 {
-    box-sizing: border-box;
-    border-radius: 2px solid #FFFFFF;
-    margin-top: 112px;
-    margin-right: -25px;
-    background: none;
-}
-.well_reviews{
-    font-size: 26px;
-    margin-left: 35px;
-    display: inline-block;
-    width: 150px;
-}
-.read_beats {
-    width: 430px;
-    height: 606px;
-    position: absolute;
-    left: 934px;
-    top: 375px;
-}
-.play {
-display: inline-block;
-width: 115px;
-
-}
-.play_img {
-    position: absolute;
-    width: 69px;
-    height: 69px;
-    border-radius: 100%;
-    top: 859px;
-    left: 880px;
-
-}
-.play_text {
-    position: absolute;
-    font-size: 21px;
-    border: none;
-    left: 860px;
-    top: 950px;
-    color: var(--textprimrycolor);
-    cursor: pointer;
-    
-}
-.products {
-    background-color: #845EC2;
-    height: 591px;
-}
-.products_text {
-    display: inline-block;
-    color: #845EC2;
-    font-size: 60px;
-    font-weight: bold;
-    line-height: 74px;
-    text-shadow: 0px 0px 2px #FFFFFF;
-    margin-top: 73px;
-    margin-left: 90px;
-}
-.products_our {
-    display: block;
-    margin-left: 837px;
-}
-.products_our_h2 {
-    font-size: 44px;
-    line-height: 54px;
-    font-style: normal;
-    color: #FFFFFF;
-    width: 559px;
-}
-.products_lorem{
-    width: 500px;
-    color: #FFFFFF;
-    font-size: 21px;
-    margin-top: 10px;
-    line-height: 35px;
-}
-.products_img {    
-    display: block;
-
-}
-.airpod_1 {
-    position: absolute;
-    margin-top: 37px;
-    margin-left: 85px;
-}
-.airpod_2 {
-    position: absolute;
-    margin-top: -32px;
-    margin-left: 306px;
-}
-.airpod_3 { 
-    position: absolute;
-    height: 331px;   
-    margin-top: 52px;
-    margin-left: 527px;
+.header {
+  width: 1950px;
+  display: inline-block;
 }
 .btn_add {
-    color:#FFFFFF;
-    font-size: 21px;
-    margin-left: 832px;
-    margin-top: 35px;
-    background-color: #10B981;
-    border-radius: 10px;
-    width: 263px;
-    height: 70px;
-    padding-left: 32px;
-    cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 21px;
+  background-color: #10b981;
+  width: 263px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.logo_name {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  display: inline-block;
+  margin-top: 63px;
+  margin-left: 85px;
+}
+.shop {
+  color: #10b981;
+}
+.placeholder {
+  font-size: 16px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 322px;
+  height: 63px;
+  padding-left: 32px;
+}
+.login__btn {
+  width: 800px;
+  display: inline-block;
+}
+.basket {
+  display: inline;
+  font-size: 16px;
+  margin-left: 38px;
+  background-color: #ffffff;
+  border: 1px solid #10b981;
+  border-radius: 30px;
+  width: 299px;
+  height: 60px;
+  padding-left: 75px;
+}
+.add_text {
+  display: inline-block
+
+}
+.login_text {
+  display: inline-block
+
+}
+.searc_input_label {
+  position: relative;
+  margin-left: 239px;
+}
+.searc__input_btn {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background-color: #10b981;
+  margin-left: 265px;
+  margin-top: 77px;
+}
+.login {
+  display: inline;
+  font-size: 16px;
+  margin-left: 23px;
+  background-color: #10b981;
+  border: 1px solid #10b981;
+  border-radius: 30px;
+  width: 299px;
+  height: 60px;
+  padding-left: 75px;
+}
+ul {
+  padding-left: 460px;
+  background-color: #10b981;
+  width: 100%;
+  height: 81px;
+  margin-top: 70px;
+}
+li {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 75px;
+  margin-top: 28px;
+}
+a {
+  cursor: pointer;
+}
+.discover {
+  color: #2b2626;
+  font-size: 64px;
+  margin-top: 126px;
+  margin-left: 85px;
+  display: inline-block;
+  width: 600px;
+}
+.lorem {
+  color: #2b2626;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-left: 85px;
+  width: 500px;
+}
+.buy {
+  color: #ffffff;
+  font-size: 21px;
+  margin-left: 85px;
+  margin-top: 74px;
+  background-color: #10b981;
+  border-radius: 10px;
+  width: 263px;
+  height: 70px;
+  cursor: pointer;
+}
+.reviews_1 {
+  box-sizing: border-box;
+  border-radius: 2px solid #ffffff;
+  margin-left: 85px;
+  margin-top: 112px;
+  margin-right: -25px;
+  background: none;
+}
+.reviews_2 {
+  box-sizing: border-box;
+  border-radius: 2px solid #ffffff;
+  margin-top: 112px;
+  margin-right: -25px;
+  background: none;
+}
+.reviews_3 {
+  box-sizing: border-box;
+  border-radius: 2px solid #ffffff;
+  margin-top: 112px;
+  margin-right: -25px;
+  background: none;
+}
+.reviews_4 {
+  box-sizing: border-box;
+  border-radius: 2px solid #ffffff;
+  margin-top: 112px;
+  margin-right: -25px;
+  background: none;
+}
+.well_reviews {
+  font-size: 26px;
+  margin-left: 35px;
+  display: inline-block;
+  width: 150px;
+}
+.read_beats {
+  width: 430px;
+  height: 606px;
+  position: absolute;
+  left: 934px;
+  top: 350px;
+}
+.play {
+  display: inline-block;
+  width: 115px;
+}
+.play_img {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  border-radius: 100%;
+  top: 800px;
+  left: 880px;
+}
+.play_text {
+  position: absolute;
+  font-size: 21px;
+  border: none;
+  left: 860px;
+  top: 880px;
+  color: var(--textprimrycolor);
+  cursor: pointer;
+}
+.products {
+  background-color: #845ec2;
+  height: 591px;
+}
+.products_text {
+  display: inline-block;
+  color: #845ec2;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 74px;
+  text-shadow: 0px 0px 2px #ffffff;
+  margin-top: 73px;
+  margin-left: 90px;
+}
+.products_our {
+  display: block;
+  margin-left: 837px;
+}
+.products_our_h2 {
+  font-size: 44px;
+  line-height: 54px;
+  font-style: normal;
+  color: #ffffff;
+  width: 559px;
+}
+.products_lorem {
+  width: 500px;
+  color: #ffffff;
+  font-size: 21px;
+  margin-top: 10px;
+  line-height: 35px;
+}
+.products_img {
+  display: block;
+}
+.airpod_1 {
+  position: absolute;
+  margin-top: 37px;
+  margin-left: 85px;
+}
+.airpod_2 {
+  position: absolute;
+  margin-top: -32px;
+  margin-left: 306px;
+}
+.airpod_3 {
+  position: absolute;
+  height: 331px;
+  margin-top: 52px;
+  margin-left: 527px;
+}
+.btn__add__products {
+  display: inline-block;
+  margin-left: 832px;
+  margin-top: 35px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .more {
-    display: inline-block;
-    background-color: transparent;
-    color: #F5F5F5;
-    font-size: 21px;
-    margin-left: 49px;
-    cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  color: #f5f5f5;
+  font-size: 21px;
+  margin-left: 49px;
+  cursor: pointer;
 }
-.price{
-
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 38px;
-    color:#FFFFFF;
-    margin-left: 286px;
-    margin-top: 67px;
+.price {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #ffffff;
+  margin-left: 286px;
+  margin-top: 67px;
 }
 .price__text {
-display: inline-block;
+  display: inline-block;
 }
-.price__number{
-    display: inline-block;
-    font-weight: 600;
+.price__number {
+  display: inline-block;
+  font-weight: 600;
+}
+.sellers {
+  height: 829px;
+}
+.product__descr {
+  display: inline-block;
+  width: 361px;
+  height: 438px;
+  border-radius: 15px;
+}
+.product__descr-rockerz {
+    background-color:#ECFEF4;
+    margin-left: 85px;
+}
+.product__descr-kerz {
+    background-color:#C9F2FF;
+    margin-left: 93px;
+}
+.product__descr-rockerz-323 {
+    background-color: #E5D5FF;
+    margin-left: 93px;
+}
+
+.btn__add__product_descr-rockerz {
+  display: inline-block;
+  margin-left: 85px;
+  margin-top: 29px;
+  border-radius: 10px;
+}
+.btn__add__product_descr-kerz {
+  display: inline-block;
+  margin-left: 93px;
+  margin-top: 29px;
+  border-radius: 10px;
+}
+.btn__add__product_descr-rockerz-323 {
+  display: inline-block;
+  margin-left: 93px;
+  margin-top: 29px;
+  border-radius: 10px;
 }

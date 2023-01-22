@@ -14,13 +14,19 @@
   <body>
     <header>
       <section class="header">
-        <p class="logo_name"><span class="shop">Shop</span><span>per</span></p>
-        <label class="searc_input_label">
-          <button class="searc__input_btn">
-            <img src="./images/search.svg" alt="search" />
-          </button>
-          <input class="placeholder" placeholder="Search items" />
-        </label>
+        <div>
+          <a href="/" class="logo_name"
+            ><span class="shop">Shop</span><span>per</span></a
+          >
+        </div>
+        <div>
+          <label class="searc_input_label">
+            <button class="searc__input_btn">
+              <img src="./images/search.svg" alt="search" />
+            </button>
+            <input class="placeholder" placeholder="Search items" />
+          </label>
+        </div>
         <div class="login__btn">
           <button class="basket">
             <img src="./images/Icon.svg" alt="icon" />
@@ -31,15 +37,15 @@
             <p class="login_text">Login or Sign Up</p>
           </button>
         </div>
-        <nav>
-          <ul>
-            <li><a class="#">Features</a></li>
-            <li><a class="#">Products</a></li>
-            <li><a class="#">Blog</a></li>
-            <li><a class="#">About</a></li>
-          </ul>
-        </nav>
       </section>
+      <nav>
+        <ul>
+          <li><a class="#">Features</a></li>
+          <li><a class="#">Products</a></li>
+          <li><a class="#">Blog</a></li>
+          <li><a class="#">About</a></li>
+        </ul>
+      </nav>
       <div>
         <h1 class="discover">Discover Our Latest Products</h1>
         <p class="lorem">
@@ -94,81 +100,97 @@
       <!--section 3-->
     </section>
     <section class="sellers">
-        <h2 class="seller_title">Top Sellers</h2>
-        <div class="tab">
-        <div class=sellers__btn-wrapper>
-        <button class="btn__picks">Top Picks</button>
-        <button class="btn__watches">Watches</button>
+      <h2 class="seller_title">Top Sellers</h2>
+      <div class="tab">
+        <div class="sellers__btn-wrapper">
+          <button class="btn__picks">Top Picks</button>
+          <button class="btn__watches">Watches</button>
+        </div>
       </div>
       <!-- 1-->
-      <div class="product__descr">
-        <div class="product__descr product__descr-rockerz">
-          <img src="./images/headphone_1.png" alt="headphone" />
-          <div class="card__deckr">
-          <p>Boat Rockerz 333</p>
-          <div class="star">
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <p class="star_title">75 Reviews</p>
+      <div class="cards">
+        <div class="product__descr">
+          <div class="product__descr-rockerz">
+            <div class="save"><p>Save 60%</p></div>
+            <div class="product__descr__img">
+              <img src="./images/headphone_1.png" alt="headphone" />
+            </div>
+            <div class="card__deckr">
+              <div class="card__deckr_title">
+                <h4>Boat Rockerz 333</h4>
+                <div class="star__margine">
+                <div class="star">
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                </div>
+                <p class="star_title">75 Reviews</p>
+              </div>
+                <p>$20</p>
+              </div>
+            </div>
           </div>
-          <p class="">$20</p>
-        </div>
-      </div>
-    </div>
           <button class="btn_add btn__add__product_descr-rockerz">
             Add to cart
-          </button>        
+          </button>
+        </div>
         <!--2-->
-        <div class="product__descr">
-        <div class="product__descr product__descr-kerz">          
-          <img src="./images/headphone_2.png" alt="headphone" />
-          <div class="card__deckr">
-          <p>Boat kerz 234</p>
-          <div class="star">
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <p class="star_title">75 Reviews</p>
+        <div class="product__descr product__descr_margin">
+          <div class="product__descr-rockerz-324">
+                        <div class="product__descr__img">
+              <img src="./images/headphone_2.png" alt="headphone" />
+            </div>
+            <div class="card__deckr">
+              <div class="card__deckr_title">
+                <h4>Boat kerz 234</h4>
+                <div class="star__margine">
+                <div class="star">
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                </div>
+                <p class="star_title">75 Reviews</p>
+              </div>
+                <p>$40</p>
+              </div>
+            </div>
           </div>
-          <p class="">$40</p>
-        </div>
-      </div>
-    </div>
-          <button class="btn_add btn__add__product_descr-kerz">
-            Add to cart
-          </button>        
-        <!--3-->
-        <div class="product__descr">
-        <div class="product__descr product__descr-rockerz-323">          
-          <img src="./images/headphone_1.png" alt="headphone" />
-          <div class="card__deckr">
-          <p>Boat Rockerz 323</p>
-          <div class="star">
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <img src="./images/Star.png" alt="star" />
-            <p class="star_title">75 Reviews</p>
-          </div>
-          <p class="">$30</p>
-        </div>
-      </div>
-    </div>
-          <button class="btn_add btn__add__product_descr-rockerz-323">
+          <button class="btn_add btn__add__product_descr-rockerz">
             Add to cart
           </button>
-        
-      </div>
-    </section>
-  
-        
-
+        </div>
+        <!--3-->
+        <div class="product__descr product__descr_margin">
+          <div class="product__descr-rockerz-323">
+            <div class="save save__boat"><p>Save 40%</p></div>
+            <div class="product__descr__img">
+              <img src="./images/headphone_3.png" alt="headphone" />
+            </div>
+            <div class="card__deckr">
+              <div class="card__deckr_title">
+                <h4>Boat Rockerz 323</h4>
+                <div class="star__margine">
+                <div class="star">
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                  <img src="./images/Star.png" alt="star" />
+                </div>
+                <p class="star_title">75 Reviews</p>
+              </div>
+                <p>$30</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn_add btn__add__product_descr-rockerz">
+            Add to cart
+          </button>
+        </div>
       </div>
     </section>
   </body>

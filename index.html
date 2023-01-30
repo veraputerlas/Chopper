@@ -40,58 +40,59 @@
       </section>
       <nav>
         <ul>
-          <li><a class="#">Features</a></li>
-          <li><a class="#">Products</a></li>
-          <li><a class="#">Blog</a></li>
-          <li><a class="#">About</a></li>
+          <li class="navigation"><a class="#">Features</a></li>
+          <li class="navigation"><a class="#">Products</a></li>
+          <li class="navigation"><a class="#">Blog</a></li>
+          <li class="navigation"><a class="#">About</a></li>
         </ul>
       </nav>
-      <div>
-        <h1 class="discover">Discover Our Latest Products</h1>
-        <p class="lorem">
-          Lorem ipsum is a placeholder text commonly used to demonstrate the
-          visual form of a product
-        </p>
-      </div>
-      <div>
-        <img
-          class="read_beats"
-          src="./images/Read_beats.png"
-          alt="Read_beats"
-        />
-        <button class="buy">Buy Now</button>
-      </div>
-      <div>
-        <img class="reviews_1" src="./images/Ellipse 7.png" alt="icon_1" />
-        <img class="reviews_2" src="./images/Ellipse 9.png" alt="icon_2" />
-        <img class="reviews_3" src="./images/Ellipse 11.png" alt="icon_3" />
-        <img class="reviews_4" src="./images/Ellipse 13.png" alt="icon_4" />
-        <p class="well_reviews">15k Well Reviews</p>
-      </div>
-      <div class="play">
-        <img class="play_img" src="./images/Play_video.png" alt="Play" />
-        <button class="play_text">Play video</button>
+      <div class="discover">
+        <div class="discover__title">
+          <h1 class="discover__title-text">Discover Our Latest Products</h1>
+          <p class="lorem">
+            Lorem ipsum is a placeholder text commonly used to demonstrate the
+            visual form of a product
+          </p>
+          <button class="buy">Buy Now</button>
+          <div class="reviews">
+            <img class="review_1" src="./images/Ellipse 7.png" alt="icon_1" />
+            <img class="review_2" src="./images/Ellipse 9.png" alt="icon_2" />
+            <img class="review_3" src="./images/Ellipse 11.png" alt="icon_3" />
+            <img class="review_4" src="./images/Ellipse 13.png" alt="icon_4" />
+            <p class="well_reviews">15k Well Reviews</p>
+          </div>
+        </div>
+        <div class="play">
+          <img class="play_img" src="./images/Play_video.png" alt="Play" />
+          <button class="play_text">Play video</button>
+        </div>
+        <div class="read_beats">
+          <img src="./images/Read_beats.png" alt="Read_beats" />
+        </div>
       </div>
     </header>
+    <!--section 2-->
     <section class="products">
       <div class="products_text">
         <p>Apple wireless Airpod</p>
       </div>
-      <div class="products_img">
-        <img class="airpod_1" src="./images/airpod_1.png" alt="airpod" />
-        <img class="airpod_2" src="./images/airpod_2.png" alt="airpod" />
-        <img class="airpod_3" src="./images/airpod_3.png" alt="airpod" />
-      </div>
-      <div class="products_our">
-        <h2 class="products_our_h2">Our Featured Products</h2>
-        <p class="products_lorem">
-          Lorem ipsum is a placeholder text commonly used to demonstrate the
-          visual form of a product
-        </p>
-      </div>
-      <div>
-        <button class="btn_add btn__add__products">Add to cart</button>
-        <button class="more">View more</button>
+      <div class="product">
+        <div class="product_img">
+          <img src="./images/airpod_1.png" alt="airpod" />
+          <img class="airpod_2" src="./images/airpod_2.png" alt="airpod" />
+          <img src="./images/airpod_3.png" alt="airpod" />
+        </div>
+        <div class="products_our">
+          <h2 class="products_our_h2">Our Featured Products</h2>
+          <p class="products_lorem">
+            Lorem ipsum is a placeholder text commonly used to demonstrate the
+            visual form of a product
+          </p>
+          <div class="btn_margine">
+            <button class="btn_add btn__add__products">Add to cart</button>
+            <button class="more">View more</button>
+          </div>
+        </div>
       </div>
       <div class="price">
         <p class="price__text">Price:</p>
@@ -119,15 +120,15 @@
               <div class="card__deckr_title">
                 <h4>Boat Rockerz 333</h4>
                 <div class="star__margine">
-                <div class="star">
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
+                  <div class="star">
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                  </div>
+                  <p class="star_title">75 Reviews</p>
                 </div>
-                <p class="star_title">75 Reviews</p>
-              </div>
                 <p>$20</p>
               </div>
             </div>
@@ -139,22 +140,22 @@
         <!--2-->
         <div class="product__descr product__descr_margin">
           <div class="product__descr-rockerz-324">
-                        <div class="product__descr__img">
+            <div class="product__descr__img">
               <img src="./images/headphone_2.png" alt="headphone" />
             </div>
             <div class="card__deckr">
               <div class="card__deckr_title">
                 <h4>Boat kerz 234</h4>
                 <div class="star__margine">
-                <div class="star">
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
+                  <div class="star">
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                  </div>
+                  <p class="star_title">75 Reviews</p>
                 </div>
-                <p class="star_title">75 Reviews</p>
-              </div>
                 <p>$40</p>
               </div>
             </div>
@@ -174,15 +175,15 @@
               <div class="card__deckr_title">
                 <h4>Boat Rockerz 323</h4>
                 <div class="star__margine">
-                <div class="star">
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
-                  <img src="./images/Star.png" alt="star" />
+                  <div class="star">
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                  </div>
+                  <p class="star_title">75 Reviews</p>
                 </div>
-                <p class="star_title">75 Reviews</p>
-              </div>
                 <p>$30</p>
               </div>
             </div>
@@ -191,6 +192,180 @@
             Add to cart
           </button>
         </div>
+      </div>
+    </section>
+    <!--section 4-->
+    <section class="sellers">
+      <h2 class="seller_title">Trending Earphones</h2>
+      <div class="tab">
+        <div class="sellers__btn-wrapper">
+          <button class="btn__picks">Earbuds</button>
+          <button class="btn__watches">Wireless</button>
+          <button class="btn__watches">Wired</button>
+        </div>
+      </div>
+      <!-- 1-->
+      <div class="cards">
+        <div class="product__descr">
+          <div class="product__descr-rockerz">
+            <div class="save"><p>Save 60%</p></div>
+            <div class="product__descr__img">
+              <img src="./images/headphone_4.png" alt="headphone" />
+            </div>
+            <div class="card__deckr">
+              <div class="card__deckr_title">
+                <h4>Boat Rockerz 333</h4>
+                <div class="star__margine">
+                  <div class="star">
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                  </div>
+                  <p class="star_title">75 Reviews</p>
+                </div>
+                <p>$20</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn_add btn__add__product_descr-rockerz">
+            Add to cart
+          </button>
+        </div>
+        <!--2-->
+        <div class="product__descr product__descr_margin">
+          <div class="product__descr-rockerz-324">
+            <div class="product__descr__img">
+              <img src="./images/headphone_2.png" alt="headphone" />
+            </div>
+            <div class="card__deckr">
+              <div class="card__deckr_title">
+                <h4>Boat kerz 234</h4>
+                <div class="star__margine">
+                  <div class="star">
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                  </div>
+                  <p class="star_title">75 Reviews</p>
+                </div>
+                <p>$40</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn_add btn__add__product_descr-rockerz">
+            Add to cart
+          </button>
+        </div>
+        <!--3-->
+        <div class="product__descr product__descr_margin">
+          <div class="product__descr-rockerz-323">
+            <div class="save save__boat"><p>Save 40%</p></div>
+            <div class="product__descr__img">
+              <img src="./images/headphone_5.png" alt="headphone" />
+            </div>
+            <div class="card__deckr">
+              <div class="card__deckr_title">
+                <h4>Boat Rockerz 323</h4>
+                <div class="star__margine">
+                  <div class="star">
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                    <img src="./images/Star.png" alt="star" />
+                  </div>
+                  <p class="star_title">75 Reviews</p>
+                </div>
+                <p>$30</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn_add btn__add__product_descr-rockerz">
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--section 5-->
+    <section class="sellers">
+      <h2 class="seller_title title">New Launches</h2>
+      <div class="products">
+        <div class="product">
+          <div class="product_img airpod">
+            <img src="./images/green_arrow_left.png" alt="arrow" />
+            <img class="airpod_2" src="./images/airpod_4.png" alt="airpod" />
+            <img src="./images/airpod_5.png" alt="airpod" />
+          </div>
+          <div class="products_our our">
+            <h2 class="products_our_h2">Airdrop 500 Anc</h2>
+            <p class="products_lorem">
+              Lorem ipsum is a placeholder text commonly used to demonstrate the
+              visual form of a product
+            </p>
+            <div class="price prices">
+              <p class="price__text">Price:</p>
+              <p class="price__number">$45.99</p>
+            </div>
+            <img class="circle" src="./images/circle.png" alt="circle" />
+            <div class="btn_margine">
+              <button class="btn_add btn__add__products">Add to cart</button>
+              <button class="more">Explore More</button>
+            </div>
+          </div>
+          <img class="arrow" src="./images/green_arrow_right.png" alt="arrow" />
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <section class="footer">
+      <div class="action">
+        <p>Ready to get started?</p>
+        <button class="btn_add">Get started</button>
+              </div>
+      <div class="list">
+        <div>
+          <p class="subscribe">Subscribe to our Website</p>
+          <label class="searc_input_label">
+            <button class="searc__input_btn">
+              <img src="./images/Submit.png" alt="search" />
+            </button>
+            <input class="placeholder" placeholder="Email address" />
+          </label>
+        </div>
+        <div>
+          <ul>
+            <p class="list-items">Services</p>
+            <li class="list__item"><a class="#">Email Marketing</a></li>
+            <li class="list__item"><a class="#">Campaigns</a></li>
+            <li class="list__item"><a class="#">Branding</a></li>
+            <li class="list__item"><a class="#">Offline</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <p class="list-items">About</p>
+            <li class="list__item"><a class="#">Our Story</a></li>
+            <li class="list__item"><a class="#">Benefits</a></li>
+            <li class="list__item"><a class="#">Team</a></li>
+            <li class="list__item"><a class="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <p class="list-items">Help</p>
+            <li class="list__item"><a class="#">FAQs</a></li>
+            <li class="list__item"><a class="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="links">
+        <a class="#">Terms & Conditions</a>
+        <a class="#">Privacy Policy</a>
+        <img class="social" src="./images/Social.png" alt="social" />
       </div>
     </section>
   </body>

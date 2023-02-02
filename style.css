@@ -276,8 +276,7 @@ display: flex;
   font-weight: 600;
 }
 .sellers {
-  height: 930px;
-  padding-top: 130px;
+  padding-top: 47px;
   display: flex;
   flex-direction: column;
 }
@@ -455,7 +454,8 @@ margin-top: 60px;
   justify-content: space-between;
   flex-direction: column;
   width: 1068px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 40px;
   margin-bottom: 130px;
 }
 .action {
@@ -488,6 +488,12 @@ margin-top: 60px;
   display: flex;
     justify-content: space-around;
     margin-top: 40px;
+}
+.lists {
+  display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 71px;
 }
 .subscribe{
   font-size: 22px;
@@ -560,8 +566,52 @@ display: none;
   .products_our_h2{
     width: 584px;
   }
- 
+  .seller_title {
+    width: 1140px; 
 }
+.tab {
+  width: 1140px;
+}
+.cards {
+  width: 1140px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0 0 0;
+}
+.product__descr_margin {
+  margin: 15px 0 0 0;
+}
+.product_img {
+  width: 570px;
+  margin: 85px 0px 0px 17px;
+}
+.our {
+  margin: 66px 0 0 36px;
+  width: 30%;
+}
+.airpod_2 {
+  margin-top: -89px;
+}
+.products_our_h2 {
+  width: 387px;
+}
+.btn_margine {
+  display: flex;
+}
+.footer {
+  margin: 0;}
+  .action {
+    justify-content: flex-end;
+    margin: 45px 0 0 33px;
+    font-size: 15px;
+}
+.links {
+  margin-left: 56px;
+  margin-bottom: 60px;
+  gap: 13px;
+}
+  }
 
 @media (max-width:960px){
   .header {
@@ -637,6 +687,44 @@ nav {
   .more {
     margin: 0;
   }
+  .seller_title {
+    width: 960px;
+}
+.tab {
+  width: 960px;
+  }
+  .cards {
+    width: 960px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.airpod_2 {
+  display: none;
+}
+.product_img {
+  width: 40%;
+  margin: 16px 0px 0px 0px;
+}
+.our {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.btn_margine {
+  flex-direction: row ;
+}
+.footer {
+  width: 960px;
+}
+.links {
+  gap: 46px;
+}
+.social {
+  margin-left: 388px;
+}
+}
+
 @media (max-width:720px) {
   .header {
     gap: 60px;
@@ -671,6 +759,58 @@ nav {
 .play {
   margin-bottom: 0;
 }
+.seller_title {
+  width: 720px;
+}
+.tab {
+  width: 720px;
+}
+.cards {
+  width: 720px;
+}
+.products {
+  width: 721px;
+}
+.arrow {
+  display: none;
+}
+.product_img {
+  justify-content: center;
+  gap: 10px;
+}
+.products_our_h2 {
+  width: 295px;
+  font-size: 34px;
+}
+.products_lorem {
+  width: 295px;
+  font-size: 17px;
+  line-height: 25px;
+}
+.btn_margine {
+flex-direction: column;
+}
+.arrow {
+  margin: 232px 37px 0 0;
+}
+.our {
+  width: 40%;
+  margin-top: 58px;
+  margin-left: 20px;
+}
+.footer {
+  width: 720px;
+}
+.lists{
+  flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    text-align: center;
+}
+.social {
+  margin-left: 138px;
+}
+}
 @media (max-width:661px) {
   .header {
     gap: 19px;}
@@ -699,6 +839,82 @@ margin-left: 23px;
 }
 .play {
   display: none;
+}
+.airpod_2 {
+  display: none;
+}
+.products_our_h2 {
+  font-size: 34px;
+}
+.products_text {
+  margin-left: 22px;
+  width: 489px;
+  margin-top: 18px;
+}
+.product_img {
+  width: 229px;
+}
+.products_lorem {
+  width: 353px;
+  font-size: 15px;
+  line-height: 25px;
+}
+.seller_title {
+  width: 670px;
+}
+.tab {
+  width: 670px;
+}
+.cards {
+  width: 670px;
+}
+.products {
+  width: 661px;
+}
+.product_img {
+  margin-left: 15px;
+}
+.our {
+  width: 50%;
+}
+.arrow{
+  display: none;
+}
+.footer {
+  width: 660px;
+}
+
+.list {
+  align-items: center;
+  flex-direction: column;
+  gap: 39px;
+}
+.action {
+  justify-content: center;
+}
+.lists {
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.list__item {
+  list-style-type: none;
+}
+.links {
+  gap: 46px;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+
+}
+.subscribe {
+  width: 100%;
+
+}
+.social {
+  margin-left: 0;
 }
 }
 
@@ -739,5 +955,60 @@ margin-left: 23px;
         .play {
           display: none;
         }
+        .product_img {
+          margin-top: auto;
+  margin-left: 0;
+        }
+        .products_lorem {
+          width: 300px;
+        }
+        .btn_margine {
+        margin: 19px 0 0 0;
+        }
+        .price {
+          margin-left: 258px;
+      }
+      .seller_title {
+        width: 570px;
+    }
+    .tab {
+      width: 570px;
+  }
+  .cards {
+    width: 570px;
+  }
+  .products {
+    width: 564px;
+}
+.airpod {
+  margin-left: 15px;
 
+}
+.products_our_h2 {
+  font-size: 24px;
+}
+.products_lorem {
+  width: 276px;
+}
+.price {
+  margin-left: 0;
+}
+.circle {
+  width: 196px;
+  margin-top: 22px;
+}
+.btn_margine {
+  margin: 45px 0 0 0;
+}
+.footer {
+  margin: 0;
+}
+  .action {
+    justify-content: flex-start;
+    margin: 45px 0 0 33px;
+    font-size: 15px;
+  }
+  .footer {
+    width: 560px;
+  }
 }
